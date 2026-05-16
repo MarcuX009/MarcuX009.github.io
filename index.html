@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wenjin Li's software engineering resume and project portfolio." />
+  <title>Wenjin Li | Resume</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/layout.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+  <link rel="stylesheet" href="styles/responsive.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-i18n="heroEyebrow"></p>
+      <h1 class="hero__title">Wenjin Li</h1>
+      <p class="hero__subtitle" data-i18n="heroSubtitle"></p>
+      <div class="hero__facts" aria-label="Resume details">
+        <span>
+          <i class="fa fa-location-dot" aria-hidden="true"></i>
+          <span data-i18n="heroLocation"></span>
+        </span>
+      </div>
+      <div class="hero__links" aria-label="Contact links">
+        <a href="mailto:marcuslee.tech009@gmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>marcuslee.tech009@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/WenjinLi009/" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/MarcuX009" target="_blank" rel="noreferrer">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="site-nav__links" id="nav-links"></div>
+    <div class="language-toggle" aria-label="Language selector">
+      <button class="language-toggle__button" type="button" data-lang="en">EN</button>
+      <button class="language-toggle__button" type="button" data-lang="zh">中文</button>
+    </div>
+  </nav>
+
+  <main class="page-shell" id="content"></main>
+
+  <aside class="visitor-widget" aria-label="Visitor map">
+    <script type="text/javascript" id="clstr_globe"
+      src="//clustrmaps.com/globe.js?d=Hw5ndoGBb_zGTArbkz1Ewm6YloNulM4_zEWOH7NwXXM"></script>
+  </aside>
+
+  <footer class="site-footer">
+    <small>
+      <span data-i18n="footerCopyright"></span>
+      <span aria-hidden="true"> | </span>
+      <span data-i18n="footerPowered"></span>
+      <span aria-hidden="true"> | </span>
+      <span data-i18n="footerUpdatedLabel"></span>
+      <time datetime="2026-05-14" data-i18n="footerUpdatedDate"></time>
+    </small>
+  </footer>
+
+  <script src="scripts/content.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+:root {
+  --color-primary: #263447;
+  --color-secondary: #2e86c1;
+  --color-accent: #12a594;
+  --color-bg: #f3f5f7;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef4f8;
+  --color-text: #28313d;
+  --color-muted: #627184;
+  --color-border: #dbe3ea;
+  --color-white: #ffffff;
+  --shadow-soft: 0 14px 36px rgba(22, 34, 51, 0.12);
+  --shadow-hover: 0 18px 42px rgba(22, 34, 51, 0.16);
+  --radius: 8px;
+  --content-width: 980px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Noto Sans SC', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font: inherit;
+}
+
+.skip-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
