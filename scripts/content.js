@@ -34,7 +34,7 @@ window.resumeContent = {
           {
             title: "University of Southern California",
             meta: "Los Angeles, CA | Aug 2024 - Jun 2026",
-            role: "Master of Science in Computer Engineering | GPA: 3.75 / 4.0",
+            role: "Master of Science in Computer Engineering | GPA: 3.71 / 4.0",
             body: ["Relevant Coursework: Parallel & Distributed Computing, Computer Networks, Cloud Computing, Computer Architecture, ML/AI, Cybersecurity"]
           },
           {
@@ -281,7 +281,7 @@ window.resumeContent = {
           {
             title: "南加州大学",
             meta: "洛杉矶，加州 | 2024 年 8 月 - 2026 年 6 月",
-            role: "计算机工程硕士 | GPA: 3.75 / 4.0",
+            role: "计算机工程硕士 | GPA: 3.71 / 4.0",
             body: ["相关课程：并行与分布式计算、计算机网络、云计算、计算机体系结构、机器学习/人工智能、网络安全"]
           },
           {
